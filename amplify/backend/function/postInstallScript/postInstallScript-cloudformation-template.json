@@ -85,7 +85,7 @@
             "Arn"
           ]
         },
-        "Runtime": "nodejs17.x",
+        "Runtime": "nodejs16.x",
         "Layers": [],
         "Timeout": "600"
       }
