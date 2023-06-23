@@ -5,7 +5,7 @@ backend:
       commands:
         - '# Execute Amplify CLI with the helper script'
         - REACT_APP_CONNECT_INSTANCE_ID=$REACT_APP_CONNECT_INSTANCE_ID
-        - amplifyPush --simple
+        - amplifyPush --disable-rollback
 frontend:
   phases:
     preBuild:
